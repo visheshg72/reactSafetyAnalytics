@@ -6,7 +6,6 @@ import Dashboard from './pages/dashboard/Dashboard';
 import NavbarSisdebarWrapper from './components/shared/NavbarSidebarWrapper';
 import UserManagement from './pages/user-management/UserManagement';
 import NotFound from './pages/404/NotFound';
-import CompetitiveAnalysis from './pages/competitive-analysis/CompetitiveAnalysis';
 import NetworkError from './pages/network-error/NetworkError';
 import UserCard from './pages/web-components/userCard';
 import CustomHook from './pages/custom-hooks';
@@ -42,14 +41,6 @@ const MainRouter = () => {
       element: (
         <NavbarSisdebarWrapper>
           <Dashboard />
-        </NavbarSisdebarWrapper>
-      ),
-    },
-    {
-      path: '/competative-analysis',
-      element: (
-        <NavbarSisdebarWrapper>
-          <CompetitiveAnalysis />
         </NavbarSisdebarWrapper>
       ),
     },
