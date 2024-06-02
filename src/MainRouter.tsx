@@ -18,6 +18,10 @@ const MainRouter = () => {
       element: <Login />,
     },
     {
+      path: '/reactSafetyAnalytics/',
+      element: <Login />,
+    },
+    {
       path: '/user-cards',
       element: <UserCard />,
     },
